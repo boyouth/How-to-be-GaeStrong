@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 눌렀을 때 -->
+    <item android:state_pressed="true" android:drawable="@drawable/after_click_effect"/>
+    <item android:state_focused="true" android:drawable="@drawable/after_click_effect"/>
+
+    <!-- 클릭 전 보여지는 색 -->
+    <item android:drawable="@drawable/before_click_effect"/>
+</selector>

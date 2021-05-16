@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginBottom="15dp"
+    android:background="@drawable/square_item"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/text_lecture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="강의명"
+        android:textSize="18sp"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="교수"
+            android:textColor="@color/grey_1"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/text_professor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="교수명"
+            android:textSize="12sp"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="학수번호"
+            android:textColor="@color/grey_1"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/text_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0000000000"
+            android:textSize="12sp"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="대학(원)"
+            android:textColor="@color/grey_1"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/text_uni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="단과대학"
+            android:textSize="12sp"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="학과(부)"
+            android:textColor="@color/grey_1"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/text_major"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="학과(부)"
+            android:textSize="12sp"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="이수구분"
+            android:textColor="@color/grey_1"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/text_classification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이수구분"
+            android:textSize="12sp"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="학년"
+            android:textColor="@color/grey_1"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/text_grade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="학년"
+            android:textSize="12sp"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="학점"
+            android:textColor="@color/grey_1"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/text_credit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="학점"
+            android:textSize="12sp"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="수업방법"
+            android:textColor="@color/grey_1"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/text_teaching_method"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="수업방법"
+            android:textSize="12sp"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="시간"
+            android:textColor="@color/grey_1"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/text_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[강의실:시간]"
+            android:textSize="12sp"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+</LinearLayout>

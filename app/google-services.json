@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "486150660748",
+    "project_id": "capstone-da813",
+    "storage_bucket": "capstone-da813.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486150660748:android:4a89b69ddf5a9d495911a9",
+        "android_client_info": {
+          "package_name": "com.example.gaegang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486150660748-in2k4c9icv4dkqpvt2846cgq1o7n6057.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgyziBhND79de5-XKdYhok0ykmYMo9bTE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486150660748-in2k4c9icv4dkqpvt2846cgq1o7n6057.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
