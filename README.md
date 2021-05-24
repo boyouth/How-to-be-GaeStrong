@@ -20,3 +20,4 @@
   - `selenium`과 `Python`을 활용한 추천알고리즘(`TF-IDF`를 이용한 가중치와 `Cosine 유사도` 이용) 구현
   - `Data Set`(인천대학교의 전체 교양 과목과 강의계획서 데이터) 이용  
 - 소개 영상
+https://www.youtube.com/watch?v=Br-lyMD999Q
